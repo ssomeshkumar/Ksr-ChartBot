@@ -4,3 +4,4 @@ faiss-cpu
 PyMuPDF
 numpy
 requests
+python-dotenv
