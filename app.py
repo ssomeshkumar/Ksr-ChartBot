@@ -80,7 +80,7 @@ st.set_page_config(page_title="KSRCE FAQ Bot", layout="centered")
 st.title("🎓 KSRCE FAQ Bot")
 st.write("Ask anything about KSRCE admissions, policies, or placements.")
 
-questions, answers = extract_qa("ksrfaq.pdf")
+questions, answers = extract_qa("ksrfaq1.pdf")
 
 if not questions:
     st.error("❌ No questions were extracted from the PDF. Check the format.")
